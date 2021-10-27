@@ -1,0 +1,188 @@
+/* Karin Marie Silva dos Santos
+	IN110 */
+
+/*CABEÇALHO*/
+
+body header{
+	width: 1400px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	box-shadow: 10px 10px 5px #DCDCDC;
+	background-color: white;
+}
+
+body header div{
+	text-align: center;
+}
+
+body header h2{
+	font-size: 50px;
+	font-family: 'Anton', sans-serif !important;
+	text-shadow: 10px 10px 5px #DCDCDC;
+	color: #8B4513;
+	letter-spacing: 3px;
+}
+
+body header ul{
+	list-style: none;
+}
+
+body header ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 10px;
+}
+
+body header ul li a{
+	text-decoration: none;
+	color: #4682B4;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 700;
+	font-size: 20px;
+}
+body header ul li a:hover{
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+/*CONTEÚDO GERAL*/
+
+body{
+	background-image: url("beedrill/Beedrill.jpg");
+	background-attachment: fixed;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#wrap{ /*uma espécie de "embalagem" pras colunas que eu vou colocar depois*/
+	width: 1500px;
+	margin: 0 auto;
+	overflow: auto; /*pro rodapé não ficar flutuando, já que ele está fora do wrap e das colunas*/
+}
+
+h1{
+	font-weight: 700;
+	font-size: 30px;
+	color: #000080;
+}
+
+h2, th{
+	font-weight: 700;
+	font-size: 25px;
+	color: 	#556B2F;
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px
+}
+
+table{
+	border: 1px solid #DC143C;
+	margin: 0 auto;
+	background-color: #F5F5F5;
+}
+
+th, td{
+	border: 1px solid #DC143C;
+	background-color: #F5F5F5;
+	text-align: center;
+}
+
+.tb{
+	font-weight: 700;
+}
+
+#img1{
+	width: 500px;
+}
+
+#img1p{
+	text-align: center;
+}
+
+#img2{
+	width: 600px;
+}
+
+#img2p{
+	text-align: center;
+}
+
+#fonts{
+	list-style-image: url("beedrill/icon.png")
+}
+
+.fontlink{
+	color: #DC143C;
+	text-decoration: none;
+}
+
+.fontlink:hover{
+	color: #8B0000;
+	text-decoration: underline;
+}
+
+/*PRIMEIRA COLUNA*/
+
+#col1{
+	width: 650px;
+	float: left;
+	padding: 20px 20px;
+	background-color: rgba(255,255, 255, 0.85);
+	box-shadow: 10px 10px 5px #DCDCDC;
+	margin-left: 20px;
+}
+
+/*SEGUNDA COLUNA*/
+
+#col2{
+	width: 650px;
+	float: right;
+	padding: 20px 20px;
+	background-color: rgba(255,255, 255, 0.85);
+	box-shadow: 10px 10px 5px #DCDCDC;
+	margin-right: 20px;
+}
+
+/*RODAPÉ*/
+
+footer{
+	width: 1400px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 20px;
+	background-color: rgba(255,255, 255, 0.85);
+	box-shadow: 10px 10px 5px #DCDCDC;
+	border: 1px solid #708090;
+	margin-top: 20px;
+}
+
+/*ABA OUTROS*/
+
+#contentoutros{
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 20px;
+	background-color: rgba(255,255, 255, 0.85);
+	box-shadow: 10px 10px 5px #DCDCDC;
+	text-align: center;
+}
+
+.linkoutros{
+	color: #DC143C;
+	text-decoration: none;
+}
+
+.linkoutros:hover{
+	color: #8B0000;
+	text-decoration: underline;
+}
+
+
+.imgout{
+	height: 300px;
+}
+
+.imgp{
+	text-align: center;
+}
